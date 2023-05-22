@@ -1,0 +1,22 @@
+
+
+<style>
+  .user-input {
+    background-color: lightblue;
+  }
+
+  .coach-response {
+    background-color: yellow;
+  }
+</style>
+<div class="user-input">
+<p> <%= @message %> </p>
+<p> - You </p>
+</div>
+
+<div class="coach-response">
+<p> <%= @coach_response %> </p>
+<p> - Your coach </p>
+</div>
+
+<%= link_to "Go back to Ask", "/ask" %>
